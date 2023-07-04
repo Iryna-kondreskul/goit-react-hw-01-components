@@ -1,0 +1,39 @@
+li{
+    list-style: none;
+    text-align: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.statistics {
+    margin-top: 50px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border: solid 1px;
+    background-color: rgb(238, 244, 250);
+}
+
+.statsList {
+    display: flex;
+    margin-left: 60px;
+    margin-right: auto;
+    width: 400px;
+   
+}
+
+.title {
+    width: 300px;
+   margin: 20px 0px 0px 59px;
+    padding: 30px;
+    background-color: rgb(246, 244, 244);
+    text-align: center;
+}
+
+.item {
+    padding: 0px 20px;
+    margin: 0px 0px 20px 0px;
+}

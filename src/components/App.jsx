@@ -1,7 +1,13 @@
+
 import user from "../user.json"
+import data from "../data.json"
+// import friends from "../friends.json"
+// import transactions from "../transactions.json"
 
-
-import { Profile } from "components/profile/profile" 
+import { Profile } from "components/profile/profile"
+import{ Statistics } from "components/statistics/statistic"
+// import { Friends } from "components/friends/friends"
+// import { Transactions } from "components/transactions/transactions"
 
 export const App = () => {
   return (<><Profile 
@@ -10,9 +16,9 @@ export const App = () => {
     location={user.location} 
     avatar={user.avatar} 
     stats={user.stats}/>
-    {/* <Statistics data={data}/>
-    <Friends friends={friends}/>
-    <Transactions list={transactions}/> */}
+    <Statistics data={data}/>
+    {/* <Friends friends={friends}/> */}
+    {/* <Transactions list={transactions}/> */}
     </>
   );
 };
